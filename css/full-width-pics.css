@@ -1,0 +1,156 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+@font-face {
+    font-family: Gill;
+    src: url(../fonts/GILLIGAN.TTF);
+}
+body {
+  padding-top: 54px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Gill;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+header.topper{
+	background-image: url('../img/banana2.jpg');
+	background-size: 100%;
+	background-position: left 15%;
+}
+p{
+	font-weight: bold;
+}
+footer{
+	background-image: url('../img/plank.jpg') !important;
+	background-size:100%;
+
+}
+
+.lead{
+	font-weight: bold;
+}
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.bg-image-full.overlay {
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+
+}
+
+.navbar.bg-dark{
+	background-color: #bf920e !important;
+	background-image: url('../img/plank.jpg') !important;
+	background-size:100%;
+	box-shadow: inset 0px -10px 200px rgba(100,100,0,0.5);
+}
+.py-6{
+	padding-bottom: 20rem;
+    padding-top: 10rem;
+}
+.acts .col-sm-6{
+	margin-bottom: 30px;
+}
+.acts{
+	box-shadow:inset 0px 10px 60px black;
+}
+.phone{
+	color: #46d6e0;
+}
+.callbut{
+	padding: 5px;
+	background-color: #ffda00;
+	color: #000;
+	border:thin solid #000;
+	width: 100%;
+	text-align: center;
+	font-family: Gill;
+	border-radius: 5px;
+	display: none;
+	font-size: 22px;
+
+}
+.bookbut{
+	padding: 5px;
+	background-color: #ffda00;
+	color: #000;
+	border:thin solid #000;
+	width: 100%;
+	text-align: center;
+	font-family: Gill;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 22px;
+}
+.topHook>p{
+	color: #ffda00;
+	font-weight: bold;
+	font-size: 18px;
+}
+.RMbutton{
+	border: medium solid #000;
+	border-radius: 7px;
+
+	text-align: center;
+	font-weight: bold;
+}
+.RMbutton a{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: black;
+}
+
+@media (max-width: 991px){
+	.topHook{
+		display: none;
+	}
+}
+@media (max-width:767px){
+	header.topper{
+		background-size: 100%;
+		background-position: center 10%;
+		padding-bottom: 4rem;
+	}
+}
+@media (max-width: 457px){
+	nav>.container>*{
+		display: inline-block;
+		margin:auto;
+	}
+	nav .contact{
+		width: 100%
+	}
+	nav .phone{
+		display: none;
+	}
+	header{
+		margin-top: 100px;
+	}
+	.topHook{
+		display: none !important;
+	}
+	header.topper{
+		background-size: 100%;
+		background-position: center 100%;
+		padding-bottom: 1rem;
+	}
+	.callbut{
+		display: inline-block;
+	}
+}
+
+
+
